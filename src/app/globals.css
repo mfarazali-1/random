@@ -1,0 +1,58 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/*
+ * Design tokens (Tailwind v4 CSS-first config).
+ * Brand: premium navy "ink" + restrained gold accent — an elite, discreet feel
+ * for an executive search / staffing agency.
+ */
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-playfair), ui-serif, Georgia, serif;
+
+  --color-ink-50: #f3f5fa;
+  --color-ink-100: #e4e9f3;
+  --color-ink-200: #c5d0e4;
+  --color-ink-300: #97a8cb;
+  --color-ink-400: #6478a6;
+  --color-ink-500: #44588a;
+  --color-ink-600: #324370;
+  --color-ink-700: #243358;
+  --color-ink-800: #16223f;
+  --color-ink-900: #0b1730;
+  --color-ink-950: #060d1f;
+
+  --color-gold-300: #e6d09b;
+  --color-gold-400: #d6bc78;
+  --color-gold-500: #c2a15b;
+  --color-gold-600: #a3853f;
+  --color-gold-700: #806731;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: var(--color-ink-900);
+}
+
+@layer base {
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-serif);
+    letter-spacing: -0.01em;
+  }
+
+  /* Smooth in-page anchor scrolling (TOC links). */
+  html {
+    scroll-behavior: smooth;
+  }
+}
