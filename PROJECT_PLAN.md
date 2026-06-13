@@ -1,4 +1,4 @@
-# Project Plan — Abdullah & Co. Staffing Website (`goabdullah.com`)
+# Project Plan — Hirelo Staffing Website (`goabdullah.com`)
 
 > A marketing + lead-generation website for an elite U.S. executive search & staffing agency
 > (IT/technical recruitment + legal/attorney placement).
@@ -167,7 +167,7 @@ goabdullah/
 
 ### Home `/`
 
-- **Hero**: slogan "Need top talent? Go Abdullah." + primary CTA → `/hire-talent`.
+- **Hero**: slogan "Need top talent? Go Hirelo." + primary CTA → `/hire-talent`.
 - **Industries preview**: IT & Legal (links to services/about).
 - **Why Choose Us**: 4 differentiators (active headhunting, cross-border network, people-first, grit).
 - **Benefits / Stats** snapshot, **Final CTA** band.

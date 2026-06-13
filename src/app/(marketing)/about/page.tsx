@@ -12,7 +12,7 @@ import { buildMetadata } from "@/lib/seo/metadata";
 export const metadata: Metadata = buildMetadata({
   title: "About Us",
   description:
-    "Abdullah & Co. is a boutique U.S. executive search firm for IT and legal talent — built on active headhunting, cross-border reach, and absolute discretion.",
+    "Hirelo is a boutique U.S. executive search firm for IT and legal talent — built on active headhunting, cross-border reach, and absolute discretion.",
   path: "/about",
 });
 

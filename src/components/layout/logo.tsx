@@ -18,7 +18,7 @@ export function Logo({
         className,
       )}
     >
-      Abdullah<span className="text-blue-400">&nbsp;&amp;&nbsp;Co.</span>
+      Hire<span className="text-blue-400">lo</span>
     </Link>
   );
 }

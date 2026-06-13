@@ -10,7 +10,7 @@ export default function HomePage() {
       <IndustriesPreview />
       <WhyChooseUs />
       <CtaBand
-        title="Need top talent? Go Abdullah."
+        title="Need top talent? Go Hirelo."
         description="Tell us about your hiring needs and we'll build a pre-vetted, exact-match shortlist — with active headhunting precision and absolute discretion."
         primary={{ label: "Hire Talent", href: "/hire-talent" }}
         secondary={{ label: "View pricing", href: "/pricing" }}

@@ -1,14 +1,14 @@
 import type { NavLink } from "@/types";
 
 export const siteConfig = {
-  name: "Abdullah & Co.",
-  legalName: "Abdullah & Co. Staffing",
+  name: "Hirelo",
+  legalName: "Hirelo Staffing",
   domain: "goabdullah.com",
   url: "https://goabdullah.com",
-  slogan: "Need top talent? Go Abdullah.",
+  slogan: "Need top talent? Go Hirelo.",
   description:
-    "Abdullah & Co. is an elite U.S. executive search and staffing agency specializing in technical IT recruitment and high-caliber attorney placements. We combine active headhunting precision with a relationship-driven approach to connect top-tier professionals with leading organizations.",
-  email: "hello@goabdullah.com",
+    "Hirelo is an elite U.S. executive search and staffing agency specializing in technical IT recruitment and high-caliber attorney placements. We combine active headhunting precision with a relationship-driven approach to connect top-tier professionals with leading organizations.",
+  email: "contact@gohirelo.com",
   nav: [
     { label: "About", href: "/about" },
     { label: "Hire Talent", href: "/hire-talent" },

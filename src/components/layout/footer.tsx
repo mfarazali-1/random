@@ -12,7 +12,7 @@ export function Footer() {
         <div className="grid gap-10 md:grid-cols-3">
           <div className="max-w-sm">
             <p className="font-display text-xl font-semibold text-white">
-              Abdullah <span className="text-blue-400">&amp; Co.</span>
+              Hire<span className="text-blue-400">lo</span>
             </p>
             <p className="text-ink-300 mt-3 text-sm leading-relaxed">
               {siteConfig.slogan} Elite U.S. executive search and staffing for

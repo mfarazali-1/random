@@ -11,7 +11,7 @@ import { buildMetadata } from "@/lib/seo/metadata";
 export const metadata: Metadata = buildMetadata({
   title: "Hire Talent",
   description:
-    "Outsource your IT and legal recruitment to Abdullah & Co. Faster time-to-hire, access to passive elite talent, and a 24/7 cross-border sourcing engine.",
+    "Outsource your IT and legal recruitment to Hirelo. Faster time-to-hire, access to passive elite talent, and a 24/7 cross-border sourcing engine.",
   path: "/hire-talent",
 });
 
@@ -21,7 +21,7 @@ export default function HireTalentPage() {
       <PageHeader
         eyebrow="Hire Talent"
         title="A faster, more cost-effective path to elite hires"
-        description="Partnering with Abdullah & Co. eliminates the friction of talent acquisition while unlocking faster, more cost-effective growth."
+        description="Partnering with Hirelo. eliminates the friction of talent acquisition while unlocking faster, more cost-effective growth."
       />
 
       <Section>

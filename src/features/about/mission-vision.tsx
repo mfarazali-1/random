@@ -10,7 +10,7 @@ export function MissionVision() {
       <SectionHeading
         eyebrow="Who We Are"
         title="A boutique search firm built on discipline and discretion"
-        description="Abdullah & Co. is an elite U.S. executive search and staffing agency specializing in technical IT recruitment and high-caliber attorney placements."
+        description="Hirelo. is an elite U.S. executive search and staffing agency specializing in technical IT recruitment and high-caliber attorney placements."
       />
       <div className="mt-12 grid gap-6 md:grid-cols-2">
         <Card>

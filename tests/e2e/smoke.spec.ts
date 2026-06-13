@@ -3,7 +3,7 @@ import { test, expect } from "@playwright/test";
 test("home renders the hero and primary nav", async ({ page }) => {
   await page.goto("/");
   await expect(page.getByRole("heading", { level: 1 })).toContainText(
-    "Go Abdullah",
+    "Go Hirelo",
   );
   await expect(
     page.getByRole("link", { name: "Hire Talent" }).first(),

@@ -10,7 +10,7 @@ import { buildMetadata } from "@/lib/seo/metadata";
 export const metadata: Metadata = buildMetadata({
   title: "Contact",
   description:
-    "Contact Abdullah & Co. to initiate a confidential executive search or request a custom rate proposal for IT and legal recruitment.",
+    "Contact Hirelo to initiate a confidential executive search or request a custom rate proposal for IT and legal recruitment.",
   path: "/contact",
 });
 

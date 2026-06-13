@@ -25,7 +25,7 @@ export async function sendLeadEmail({ subject, fields }: LeadEmail) {
   const { Resend } = await import("resend");
   const resend = new Resend(apiKey);
   await resend.emails.send({
-    from: process.env.LEAD_FROM ?? "Abdullah & Co. <onboarding@resend.dev>",
+    from: process.env.LEAD_FROM ?? "Hirelo. <onboarding@resend.dev>",
     to,
     subject,
     text,

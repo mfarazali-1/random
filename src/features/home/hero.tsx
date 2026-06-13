@@ -39,7 +39,7 @@ export function Hero() {
               size="lg"
               className="border-ink-700 hover:bg-ink-800 text-ink-50"
             >
-              Why Abdullah &amp; Co.
+              Why Hirelo?
             </ButtonLink>
           </div>
         </div>
