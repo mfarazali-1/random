@@ -3,9 +3,9 @@ import { CheckCircle2, AlertCircle } from "lucide-react";
 /** Success confirmation panel shown after a form submits. */
 export function FormSuccess({ message }: { message: string }) {
   return (
-    <div className="flex items-start gap-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6">
-      <CheckCircle2 className="mt-0.5 shrink-0 text-emerald-600" size={22} />
-      <p className="text-emerald-900">{message}</p>
+    <div className="flex items-start gap-3 rounded-2xl border border-emerald-500/30 bg-emerald-500/10 p-6">
+      <CheckCircle2 className="mt-0.5 shrink-0 text-emerald-400" size={22} />
+      <p className="text-emerald-200">{message}</p>
     </div>
   );
 }
@@ -13,8 +13,8 @@ export function FormSuccess({ message }: { message: string }) {
 /** Form-level error banner. */
 export function FormError({ message }: { message: string }) {
   return (
-    <div className="flex items-start gap-2.5 rounded-lg border border-red-200 bg-red-50 p-3.5 text-sm text-red-800">
-      <AlertCircle className="mt-0.5 shrink-0 text-red-600" size={18} />
+    <div className="flex items-start gap-2.5 rounded-lg border border-red-500/30 bg-red-500/10 p-3.5 text-sm text-red-300">
+      <AlertCircle className="mt-0.5 shrink-0 text-red-400" size={18} />
       <p>{message}</p>
     </div>
   );

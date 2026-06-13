@@ -4,7 +4,7 @@ import { processSteps } from "@/data/process";
 
 export function WorkingProcess() {
   return (
-    <Section className="bg-ink-50">
+    <Section className="bg-ink-900">
       <SectionHeading
         eyebrow="Our Process"
         title="An overview of how we work"
@@ -14,13 +14,13 @@ export function WorkingProcess() {
         {processSteps.map((step) => (
           <li
             key={step.step}
-            className="border-ink-100 rounded-2xl border bg-white p-6"
+            className="border-ink-800 bg-ink-950 rounded-2xl border p-6"
           >
-            <span className="text-gold-500 font-serif text-3xl">
+            <span className="font-display text-3xl text-blue-400">
               {step.step}
             </span>
-            <h3 className="text-ink-900 mt-3 text-lg">{step.title}</h3>
-            <p className="text-ink-500 mt-2 text-sm leading-relaxed">
+            <h3 className="text-ink-50 mt-3 text-lg">{step.title}</h3>
+            <p className="text-ink-300 mt-2 text-sm leading-relaxed">
               {step.description}
             </p>
           </li>

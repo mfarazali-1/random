@@ -10,20 +10,20 @@ export function ServiceList() {
         const Icon = service.icon;
         return (
           <Card key={service.title} className="flex flex-col">
-            <div className="bg-ink-900 text-gold-400 flex h-12 w-12 items-center justify-center rounded-xl">
+            <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-500/10 text-blue-400">
               <Icon size={24} />
             </div>
-            <h3 className="text-ink-900 mt-5 text-xl">{service.title}</h3>
-            <p className="text-ink-500 mt-3 leading-relaxed">
+            <h3 className="text-ink-50 mt-5 text-xl">{service.title}</h3>
+            <p className="text-ink-300 mt-3 leading-relaxed">
               {service.description}
             </p>
-            <ul className="border-ink-100 mt-5 space-y-2.5 border-t pt-5">
+            <ul className="border-ink-800 mt-5 space-y-2.5 border-t pt-5">
               {service.highlights.map((item) => (
                 <li
                   key={item}
-                  className="text-ink-700 flex items-start gap-2.5 text-sm"
+                  className="text-ink-200 flex items-start gap-2.5 text-sm"
                 >
-                  <Check className="text-gold-600 mt-0.5 shrink-0" size={16} />
+                  <Check className="mt-0.5 shrink-0 text-blue-400" size={16} />
                   {item}
                 </li>
               ))}

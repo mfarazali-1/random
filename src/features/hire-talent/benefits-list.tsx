@@ -9,20 +9,20 @@ export function BenefitsList() {
         const Icon = benefit.icon;
         return (
           <Card key={benefit.title} className="flex flex-col">
-            <div className="bg-gold-500/10 text-gold-600 flex h-12 w-12 items-center justify-center rounded-xl">
+            <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-500/10 text-blue-400">
               <Icon size={24} />
             </div>
-            <h3 className="text-ink-900 mt-5 text-lg">{benefit.title}</h3>
-            <p className="text-ink-500 mt-2 text-sm leading-relaxed">
+            <h3 className="text-ink-50 mt-5 text-lg">{benefit.title}</h3>
+            <p className="text-ink-300 mt-2 text-sm leading-relaxed">
               {benefit.description}
             </p>
-            <dl className="border-ink-100 mt-5 space-y-4 border-t pt-5">
+            <dl className="border-ink-800 mt-5 space-y-4 border-t pt-5">
               {benefit.points.map((point) => (
                 <div key={point.label}>
-                  <dt className="text-ink-800 text-sm font-semibold">
+                  <dt className="text-ink-100 text-sm font-semibold">
                     {point.label}
                   </dt>
-                  <dd className="text-ink-500 mt-1 text-sm leading-relaxed">
+                  <dd className="text-ink-300 mt-1 text-sm leading-relaxed">
                     {point.detail}
                   </dd>
                 </div>

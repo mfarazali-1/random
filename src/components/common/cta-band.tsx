@@ -16,7 +16,7 @@ export function CtaBand({
   secondary,
 }: CtaBandProps) {
   return (
-    <section className="bg-ink-950">
+    <section className="border-ink-800 bg-ink-900 border-y">
       <Container className="py-16 sm:py-20">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl text-balance text-white sm:text-4xl">
@@ -36,7 +36,7 @@ export function CtaBand({
                 href={secondary.href}
                 variant="outline"
                 size="lg"
-                className="border-ink-700 hover:bg-ink-900 text-white"
+                className="border-ink-700 hover:bg-ink-800 text-ink-50"
               >
                 {secondary.label}
               </ButtonLink>

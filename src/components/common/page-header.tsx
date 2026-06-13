@@ -12,7 +12,7 @@ export function PageHeader({
   description?: string;
 }) {
   return (
-    <section className="border-ink-100 bg-ink-50 border-b py-16 sm:py-20">
+    <section className="border-ink-800 bg-ink-900 border-b py-16 sm:py-20">
       <Container>
         <SectionHeading
           as="h1"

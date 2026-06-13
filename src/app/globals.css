@@ -3,35 +3,41 @@
 
 /*
  * Design tokens (Tailwind v4 CSS-first config).
- * Brand: premium navy "ink" + restrained gold accent — an elite, discreet feel
+ * Brand: minimalist dark UI — a cool blue-grey "ink" neutral ramp on a
+ * near-black base, with a single confident blue primary. Modern and restrained
  * for an executive search / staffing agency.
  */
 @theme {
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
-  --font-serif: var(--font-playfair), ui-serif, Georgia, serif;
+  --font-display:
+    var(--font-space-grotesk), var(--font-inter), ui-sans-serif, system-ui,
+    sans-serif;
 
-  --color-ink-50: #f3f5fa;
-  --color-ink-100: #e4e9f3;
-  --color-ink-200: #c5d0e4;
-  --color-ink-300: #97a8cb;
-  --color-ink-400: #6478a6;
-  --color-ink-500: #44588a;
-  --color-ink-600: #324370;
-  --color-ink-700: #243358;
-  --color-ink-800: #16223f;
-  --color-ink-900: #0b1730;
-  --color-ink-950: #060d1f;
+  /* Neutral ramp: 50 = lightest (text) → 950 = darkest (page background). */
+  --color-ink-50: #f5f7fb;
+  --color-ink-100: #e6eaf2;
+  --color-ink-200: #cbd2e0;
+  --color-ink-300: #aab3c6;
+  --color-ink-400: #828da3;
+  --color-ink-500: #5e6878;
+  --color-ink-600: #3f4856;
+  --color-ink-700: #2a3140;
+  --color-ink-800: #1b212d;
+  --color-ink-900: #11151d;
+  --color-ink-950: #0a0c12;
 
-  --color-gold-300: #e6d09b;
-  --color-gold-400: #d6bc78;
-  --color-gold-500: #c2a15b;
-  --color-gold-600: #a3853f;
-  --color-gold-700: #806731;
+  /* Primary: blue. */
+  --color-blue-300: #8fb8ff;
+  --color-blue-400: #5d9bff;
+  --color-blue-500: #3d83f7;
+  --color-blue-600: #2e6fe6;
+  --color-blue-700: #2358bd;
 }
 
 :root {
-  --background: #ffffff;
-  --foreground: var(--color-ink-900);
+  color-scheme: dark;
+  --background: var(--color-ink-950);
+  --foreground: var(--color-ink-50);
 }
 
 @layer base {
@@ -47,7 +53,7 @@
   h2,
   h3,
   h4 {
-    font-family: var(--font-serif);
+    font-family: var(--font-display);
     letter-spacing: -0.01em;
   }
 

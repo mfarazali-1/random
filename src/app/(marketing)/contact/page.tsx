@@ -32,13 +32,13 @@ export default function ContactPage() {
               />
               <a
                 href={`mailto:${siteConfig.email}`}
-                className="text-ink-700 hover:text-gold-600 mt-8 inline-flex items-center gap-2.5 transition-colors"
+                className="text-ink-200 mt-8 inline-flex items-center gap-2.5 transition-colors hover:text-blue-400"
               >
                 <Mail size={18} />
                 {siteConfig.email}
               </a>
             </div>
-            <div className="border-ink-100 rounded-3xl border bg-white p-7 shadow-sm sm:p-9">
+            <div className="border-ink-800 bg-ink-900 rounded-3xl border p-7 sm:p-9">
               <ContactForm />
             </div>
           </div>

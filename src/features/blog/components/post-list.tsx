@@ -13,7 +13,7 @@ export function PostList() {
         if (posts.length === 0) return null;
         return (
           <div key={pillar}>
-            <h2 className="text-ink-900 text-2xl">{pillarLabels[pillar]}</h2>
+            <h2 className="text-ink-50 text-2xl">{pillarLabels[pillar]}</h2>
             <div className="mt-7 grid gap-6 md:grid-cols-2">
               {posts.map((post) => (
                 <PostCard key={post.slug} slug={post.slug} meta={post.meta} />

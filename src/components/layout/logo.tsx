@@ -13,12 +13,12 @@ export function Logo({
     <Link
       href="/"
       className={cn(
-        "font-serif text-xl font-semibold tracking-tight",
-        tone === "dark" ? "text-ink-900" : "text-white",
+        "font-display text-xl font-semibold tracking-tight",
+        tone === "dark" ? "text-ink-50" : "text-white",
         className,
       )}
     >
-      Abdullah<span className="text-gold-500">&nbsp;&amp;&nbsp;Co.</span>
+      Abdullah<span className="text-blue-400">&nbsp;&amp;&nbsp;Co.</span>
     </Link>
   );
 }

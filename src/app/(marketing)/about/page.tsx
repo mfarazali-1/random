@@ -27,7 +27,7 @@ export default function AboutPage() {
       <MissionVision />
       <WorkingProcess />
       <TeamSection />
-      <Section className="bg-ink-50">
+      <Section className="bg-ink-900">
         <SectionHeading
           eyebrow="Our Services"
           title="What we recruit for"

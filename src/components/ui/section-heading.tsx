@@ -27,13 +27,13 @@ export function SectionHeading({
       )}
     >
       {eyebrow && (
-        <p className="text-gold-600 mb-3 text-sm font-semibold tracking-[0.18em] uppercase">
+        <p className="mb-3 text-sm font-semibold tracking-[0.18em] text-blue-400 uppercase">
           {eyebrow}
         </p>
       )}
       <Heading
         className={cn(
-          "text-ink-900 text-balance",
+          "text-ink-50 text-balance",
           Heading === "h1"
             ? "text-4xl sm:text-5xl lg:text-6xl"
             : "text-3xl sm:text-4xl",
@@ -42,7 +42,7 @@ export function SectionHeading({
         {title}
       </Heading>
       {description && (
-        <p className="text-ink-500 mt-4 text-lg leading-relaxed">
+        <p className="text-ink-300 mt-4 text-lg leading-relaxed">
           {description}
         </p>
       )}

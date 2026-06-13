@@ -5,7 +5,7 @@ import { ServiceList } from "@/features/services/service-list";
 
 export function IndustriesPreview() {
   return (
-    <Section className="bg-ink-50">
+    <Section className="bg-ink-900">
       <SectionHeading
         eyebrow="Industries We Serve"
         title="Specialized search across IT & Legal"

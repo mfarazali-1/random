@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 
 const controlBase =
-  "w-full rounded-lg border border-ink-200 bg-white px-4 py-2.5 text-ink-900 placeholder:text-ink-300 transition-colors focus:border-ink-500 focus:outline-none focus:ring-2 focus:ring-ink-500/20 disabled:opacity-60";
+  "w-full rounded-lg border border-ink-700 bg-ink-900 px-4 py-2.5 text-ink-50 placeholder:text-ink-500 transition-colors focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/30 disabled:opacity-60";
 
 export function Label({
   className,
@@ -10,7 +10,7 @@ export function Label({
 }: React.ComponentProps<"label">) {
   return (
     <label
-      className={cn("text-ink-700 mb-1.5 block text-sm font-medium", className)}
+      className={cn("text-ink-200 mb-1.5 block text-sm font-medium", className)}
       {...props}
     >
       {children}
@@ -37,5 +37,5 @@ export function Textarea({
 /** Inline validation message for a single field. */
 export function FieldError({ message }: { message?: string }) {
   if (!message) return null;
-  return <p className="mt-1.5 text-sm text-red-600">{message}</p>;
+  return <p className="mt-1.5 text-sm text-red-400">{message}</p>;
 }

@@ -46,24 +46,24 @@ export default async function BlogPostPage({ params }: Params) {
 
   return (
     <article>
-      <header className="border-ink-100 bg-ink-50 border-b py-14 sm:py-16">
+      <header className="border-ink-800 bg-ink-900 border-b py-14 sm:py-16">
         <Container className="max-w-3xl">
           <Link
             href="/blog"
-            className="text-ink-500 hover:text-ink-900 inline-flex items-center gap-1.5 text-sm font-medium transition-colors"
+            className="text-ink-400 hover:text-ink-50 inline-flex items-center gap-1.5 text-sm font-medium transition-colors"
           >
             <ArrowLeft size={16} />
             All insights
           </Link>
           <div className="mt-6 flex items-center gap-3">
             <Badge>{pillarLabels[meta.pillar]}</Badge>
-            <span className="text-ink-400 text-sm">{meta.readingTime}</span>
+            <span className="text-ink-500 text-sm">{meta.readingTime}</span>
           </div>
-          <h1 className="text-ink-900 mt-4 text-3xl text-balance sm:text-4xl">
+          <h1 className="text-ink-50 mt-4 text-3xl text-balance sm:text-4xl">
             {meta.title}
           </h1>
           <time
-            className="text-ink-400 mt-4 block text-sm"
+            className="text-ink-500 mt-4 block text-sm"
             dateTime={meta.date}
           >
             {formatDate(meta.date)}
@@ -72,7 +72,7 @@ export default async function BlogPostPage({ params }: Params) {
       </header>
 
       <Container className="max-w-3xl py-14 sm:py-16">
-        <div className="prose prose-lg prose-headings:font-serif prose-headings:text-ink-900 prose-p:text-ink-600 prose-li:text-ink-600 prose-strong:text-ink-900 prose-a:text-gold-700 prose-a:font-medium hover:prose-a:text-gold-600 max-w-none">
+        <div className="prose prose-lg prose-invert prose-headings:font-display prose-headings:text-ink-50 prose-p:text-ink-200 prose-li:text-ink-200 prose-strong:text-ink-50 prose-a:text-blue-400 prose-a:font-medium hover:prose-a:text-blue-300 max-w-none">
           <Post />
         </div>
       </Container>

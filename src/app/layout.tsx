@@ -1,4 +1,4 @@
-import { Inter, Playfair_Display } from "next/font/google";
+import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { rootMetadata } from "@/lib/seo/metadata";
 import { JsonLd } from "@/components/common/json-ld";
@@ -10,9 +10,9 @@ const inter = Inter({
   display: "swap",
 });
 
-const playfair = Playfair_Display({
+const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
-  variable: "--font-playfair",
+  variable: "--font-space-grotesk",
   display: "swap",
 });
 
@@ -25,7 +25,7 @@ export default function RootLayout({
     <html
       lang="en"
       data-scroll-behavior="smooth"
-      className={`${inter.variable} ${playfair.variable} h-full antialiased`}
+      className={`${inter.variable} ${spaceGrotesk.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col">
         {children}

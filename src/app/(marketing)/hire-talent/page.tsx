@@ -34,7 +34,7 @@ export default function HireTalentPage() {
         </div>
       </Section>
 
-      <Section className="bg-ink-50">
+      <Section className="bg-ink-900">
         <SectionHeading
           eyebrow="Benefits of Outsourcing"
           title="The strategic edge of outsourcing your hiring"
@@ -54,13 +54,13 @@ export default function HireTalentPage() {
                 title="Tell us about your hiring needs"
                 description="Share a few details and a member of our executive team will reach out with a tailored plan."
               />
-              <ul className="text-ink-600 mt-8 space-y-3">
+              <ul className="text-ink-300 mt-8 space-y-3">
                 <li>• Pre-vetted, exact-match shortlists</li>
                 <li>• Active headhunting of passive talent</li>
                 <li>• 90-day retention guarantee on every placement</li>
               </ul>
             </div>
-            <div className="border-ink-100 rounded-3xl border bg-white p-7 shadow-sm sm:p-9">
+            <div className="border-ink-800 bg-ink-900 rounded-3xl border p-7 sm:p-9">
               <InquiryForm />
             </div>
           </div>

@@ -7,9 +7,9 @@ export default function NotFound() {
     <main className="flex flex-1 items-center justify-center py-24">
       <Container className="text-center">
         <Logo className="text-2xl" />
-        <p className="text-gold-500 mt-8 font-serif text-6xl">404</p>
-        <h1 className="text-ink-900 mt-4 text-2xl">Page not found</h1>
-        <p className="text-ink-500 mx-auto mt-3 max-w-md">
+        <p className="font-display mt-8 text-6xl text-blue-400">404</p>
+        <h1 className="text-ink-50 mt-4 text-2xl">Page not found</h1>
+        <p className="text-ink-300 mx-auto mt-3 max-w-md">
           The page you&apos;re looking for doesn&apos;t exist or has moved.
         </p>
         <div className="mt-8">
