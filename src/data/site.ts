@@ -3,8 +3,8 @@ import type { NavLink } from "@/types";
 export const siteConfig = {
   name: "Hirelo",
   legalName: "Hirelo Staffing",
-  domain: "goabdullah.com",
-  url: "https://goabdullah.com",
+  domain: "gohirelo.com",
+  url: "https://gohirelo.com",
   slogan: "Need top talent? Go Hirelo.",
   description:
     "Hirelo is an elite U.S. executive search and staffing agency specializing in technical IT recruitment and high-caliber attorney placements. We combine active headhunting precision with a relationship-driven approach to connect top-tier professionals with leading organizations.",

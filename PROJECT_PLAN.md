@@ -1,10 +1,10 @@
-# Project Plan — Hirelo Staffing Website (`goabdullah.com`)
+# Project Plan — Hirelo Staffing Website (`gohirelo.com`)
 
 > A marketing + lead-generation website for an elite U.S. executive search & staffing agency
 > (IT/technical recruitment + legal/attorney placement).
 > Built with **Next.js 16 (App Router) + TypeScript + Tailwind CSS v4**.
 >
-> **Status:** ✅ Implemented & building cleanly. App lives in `./goabdullah/`. All phases 0–5 are done
+> **Status:** ✅ Implemented & building cleanly. App lives in `./gohirelo/`. All phases 0–5 are done
 > (15 routes prerender; blog SSG; sitemap/robots; forms via Server Actions). See "Implementation status" at the bottom.
 
 ---
@@ -65,7 +65,7 @@ These rules prevent redundancy and keep the codebase scalable:
 ## 4. Folder Structure
 
 ```
-goabdullah/
+gohirelo/
 ├── public/                          # static assets (images, favicon, og images, robots.txt)
 │   └── images/
 ├── src/
@@ -284,7 +284,7 @@ Client form (RHF + Zod)  →  Server Action (re-validate same Zod schema)
 
 ## Implementation Status (built)
 
-**Location:** `./goabdullah/` — `npm run dev` (Turbopack) then visit `http://localhost:3000`.
+**Location:** `./gohirelo/` — `npm run dev` (Turbopack) then visit `http://localhost:3000`.
 
 Delivered against the plan:
 
